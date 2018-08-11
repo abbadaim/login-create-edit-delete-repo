@@ -14,7 +14,7 @@ ${save_button}                  xpath=//button[contains(text(),'Save')]
 ${cancel_button}                xpath=//button[contains(text(),'Cancel')]
 ${userprofile_link}             css=a.url
 ${repositories_tab}             css=a[title="Repositories"]
-${reposettings_button}          //nav[contains(@class,'reponav js-repo-nav js-sidenav-container-pjax container')]//a[4]
+${reposettings_button}          xpath=/html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/nav[1]/a[4]
 ${deleterepo_button}            css=//summary[contains(text(),'Delete this repository')]
 ${deleteconfirm_field}          css=input.input-block
 ${deleteconfirm_button}         xpath=//button[contains(text(),'I understand the consequences, delete this reposit')]
